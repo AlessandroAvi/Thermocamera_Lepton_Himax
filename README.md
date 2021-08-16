@@ -31,11 +31,11 @@ This repo also contains the dataset that has been created with the detection and
 - `Dataset.zip` which contains all the 3655 couples of IR and B&W images
 - `Dataset_100_sample.zip` which contains only 100 couples of IR and B&W images as a sample
 
-![name-of-you-image](link)
+![name-of-you-image](https://github.com/AlessandroAvi/Thermocamera_Lepton_Himax/blob/main/Images/dataset_example.png)
 
 
 
-![name-of-you-image](link)
+![name-of-you-image](https://github.com/AlessandroAvi/Thermocamera_Lepton_Himax/blob/main/Images/dataset_example_himax.png)
 
 # Results 
 Video footage of the working prototype can be found at the following link : 
