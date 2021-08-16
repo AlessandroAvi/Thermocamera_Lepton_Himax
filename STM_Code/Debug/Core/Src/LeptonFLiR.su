@@ -1,0 +1,160 @@
+LeptonFLiR.cpp:70:15:long unsigned int millis()	16	static
+LeptonFLiR.cpp:76:5:int constrain(int, int, int)	24	static
+LeptonFLiR.cpp:108:19:int roundUpVal16(int)	16	static
+LeptonFLiR.cpp:109:21:byte* roundUpPtr16(byte*)	16	static
+LeptonFLiR.cpp:110:21:byte* roundUpMalloc16(int)	16	static
+LeptonFLiR.cpp:111:21:byte* roundUpSpiFrame16(byte*)	16	static
+LeptonFLiR.cpp:121:1:LeptonFLiR::LeptonFLiR()	16	static
+LeptonFLiR.cpp:128:1:LeptonFLiR::~LeptonFLiR()	16	static
+LeptonFLiR.cpp:136:6:void LeptonFLiR::init(LeptonFLiR_ImageStorageMode, LeptonFLiR_TemperatureMode)	16	static
+LeptonFLiR.cpp:186:29:LeptonFLiR_ImageStorageMode LeptonFLiR::getImageStorageMode()	16	static
+LeptonFLiR.cpp:190:28:LeptonFLiR_TemperatureMode LeptonFLiR::getTemperatureMode()	16	static
+LeptonFLiR.cpp:195:5:int LeptonFLiR::getImageWidth()	16	static
+LeptonFLiR.cpp:213:5:int LeptonFLiR::getImageHeight()	16	static
+LeptonFLiR.cpp:231:5:int LeptonFLiR::getImageBpp()	16	static
+LeptonFLiR.cpp:249:5:int LeptonFLiR::getImagePitch()	16	static
+LeptonFLiR.cpp:272:5:int LeptonFLiR::getImageTotalBytes()	24	static
+LeptonFLiR.cpp:276:7:byte* LeptonFLiR::getImageData()	16	static
+LeptonFLiR.cpp:280:7:byte* LeptonFLiR::getImageDataRow(int)	24	static
+LeptonFLiR.cpp:284:7:byte* LeptonFLiR::_getImageDataRow(int)	24	static
+LeptonFLiR.cpp:288:10:uint16_t LeptonFLiR::getImageDataRowCol(int, int)	40	static
+LeptonFLiR.cpp:294:9:uint8_t LeptonFLiR::RGB_getImageDataRowCol_AVERAGE(int, int)	56	static
+LeptonFLiR.cpp:315:9:uint8_t LeptonFLiR::RGB_getImageDataRowCol(int, int)	40	static
+LeptonFLiR.cpp:321:9:uint8_t LeptonFLiR::RAW_getImageDataRowCol(int, int)	40	static
+LeptonFLiR.cpp:328:7:byte* LeptonFLiR::getTelemetryData()	16	static
+LeptonFLiR.cpp:332:6:void LeptonFLiR::getTelemetryData(TelemetryData*)	24	static
+LeptonFLiR.cpp:373:10:uint32_t LeptonFLiR::getTelemetryFrameCounter()	24	static
+LeptonFLiR.cpp:380:6:bool LeptonFLiR::getShouldRunFFCNormalization()	24	static
+LeptonFLiR.cpp:391:5:int LeptonFLiR::getSPIFrameLines()	16	static
+LeptonFLiR.cpp:409:5:int LeptonFLiR::getSPIFrameTotalBytes()	24	static
+LeptonFLiR.cpp:413:11:uint16_t* LeptonFLiR::getSPIFrameDataRow(int)	24	static
+LeptonFLiR.cpp:418:13:void printSPIFrame(uint16_t*)	24	static
+LeptonFLiR.cpp:444:49:void SPI_Transfer(uint16_t*, int)	16	static
+LeptonFLiR.cpp:480:6:bool LeptonFLiR::readInitData()	32	static
+LeptonFLiR.cpp:612:6:bool LeptonFLiR::readNextFrame()	80	static
+LeptonFLiR.cpp:747:6:void LeptonFLiR::Lepton_setup(LEPTON*)	24	static
+LeptonFLiR.cpp:796:6:void LeptonFLiR::agc_setAGCEnabled(LEP_AGC_ENABLE_TAG)	16	static
+LeptonFLiR.cpp:805:6:bool LeptonFLiR::agc_getAGCEnabled()	24	static
+LeptonFLiR.cpp:816:6:void LeptonFLiR::agc_setAGCPolicy(LEP_AGC_POLICY)	16	static
+LeptonFLiR.cpp:825:16:LEP_AGC_POLICY LeptonFLiR::agc_getAGCPolicy()	24	static
+LeptonFLiR.cpp:836:6:void LeptonFLiR::agc_setHEQScaleFactor(LEP_AGC_HEQ_SCALE_FACTOR)	16	static
+LeptonFLiR.cpp:845:26:LEP_AGC_HEQ_SCALE_FACTOR LeptonFLiR::agc_getHEQScaleFactor()	24	static
+LeptonFLiR.cpp:856:6:void LeptonFLiR::agc_setAGCCalcEnabled(bool)	16	static
+LeptonFLiR.cpp:865:6:bool LeptonFLiR::agc_getAGCCalcEnabled()	24	static
+LeptonFLiR.cpp:876:6:void LeptonFLiR::sys_getCameraStatus(LEP_SYS_CAM_STATUS*)	16	static
+LeptonFLiR.cpp:885:27:LEP_SYS_CAM_STATUS_STATES LeptonFLiR::sys_getCameraStatus()	24	static
+LeptonFLiR.cpp:891:6:void LeptonFLiR::sys_getFlirSerialNumber(char*, int)	32	static
+LeptonFLiR.cpp:904:6:void LeptonFLiR::sys_getCustomerSerialNumber(char*, int)	56	static
+LeptonFLiR.cpp:917:10:uint32_t LeptonFLiR::sys_getCameraUptime()	24	static
+LeptonFLiR.cpp:928:7:float LeptonFLiR::sys_getAuxTemperature()	24	static
+LeptonFLiR.cpp:939:7:float LeptonFLiR::sys_getFPATemperature()	24	static
+LeptonFLiR.cpp:950:6:void LeptonFLiR::sys_setTelemetryEnabled(bool)	16	static
+LeptonFLiR.cpp:978:6:bool LeptonFLiR::sys_getTelemetryEnabled()	24	static
+LeptonFLiR.cpp:1010:6:void LeptonFLiR::sys_runFFCNormalization()	16	static
+LeptonFLiR.cpp:1019:6:void LeptonFLiR::vid_setPolarity(LEP_VID_POLARITY)	16	static
+LeptonFLiR.cpp:1028:18:LEP_VID_POLARITY LeptonFLiR::vid_getPolarity()	24	static
+LeptonFLiR.cpp:1039:6:void LeptonFLiR::vid_setPseudoColorLUT(LEP_VID_PCOLOR_LUT)	16	static
+LeptonFLiR.cpp:1048:20:LEP_VID_PCOLOR_LUT LeptonFLiR::vid_getPseudoColorLUT()	24	static
+LeptonFLiR.cpp:1059:6:void LeptonFLiR::vid_setFocusCalcEnabled(bool)	16	static
+LeptonFLiR.cpp:1068:6:bool LeptonFLiR::vid_getFocusCalcEnabled()	24	static
+LeptonFLiR.cpp:1079:6:void LeptonFLiR::vid_setFreezeEnabled(bool)	16	static
+LeptonFLiR.cpp:1088:6:bool LeptonFLiR::vid_getFreezeEnabled()	24	static
+LeptonFLiR.cpp:1101:6:void LeptonFLiR::agc_setHistogramRegion(LEP_AGC_HISTOGRAM_ROI*)	16	static
+LeptonFLiR.cpp:1112:6:void LeptonFLiR::agc_getHistogramRegion(LEP_AGC_HISTOGRAM_ROI*)	16	static
+LeptonFLiR.cpp:1123:6:void LeptonFLiR::agc_getHistogramStatistics(LEP_AGC_HISTOGRAM_STATISTICS*)	16	static
+LeptonFLiR.cpp:1134:6:void LeptonFLiR::agc_setHistogramClipPercent(uint16_t)	16	static
+LeptonFLiR.cpp:1143:10:uint16_t LeptonFLiR::agc_getHistogramClipPercent()	24	static
+LeptonFLiR.cpp:1154:6:void LeptonFLiR::agc_setHistogramTailSize(uint16_t)	16	static
+LeptonFLiR.cpp:1163:10:uint16_t LeptonFLiR::agc_getHistogramTailSize()	24	static
+LeptonFLiR.cpp:1174:6:void LeptonFLiR::agc_setLinearMaxGain(uint16_t)	16	static
+LeptonFLiR.cpp:1183:10:uint16_t LeptonFLiR::agc_getLinearMaxGain()	24	static
+LeptonFLiR.cpp:1194:6:void LeptonFLiR::agc_setLinearMidpoint(uint16_t)	16	static
+LeptonFLiR.cpp:1203:10:uint16_t LeptonFLiR::agc_getLinearMidpoint()	24	static
+LeptonFLiR.cpp:1214:6:void LeptonFLiR::agc_setLinearDampeningFactor(uint16_t)	16	static
+LeptonFLiR.cpp:1223:10:uint16_t LeptonFLiR::agc_getLinearDampeningFactor()	24	static
+LeptonFLiR.cpp:1234:6:void LeptonFLiR::agc_setHEQDampeningFactor(uint16_t)	16	static
+LeptonFLiR.cpp:1243:10:uint16_t LeptonFLiR::agc_getHEQDampeningFactor()	24	static
+LeptonFLiR.cpp:1254:6:void LeptonFLiR::agc_setHEQMaxGain(uint16_t)	16	static
+LeptonFLiR.cpp:1263:10:uint16_t LeptonFLiR::agc_getHEQMaxGain()	24	static
+LeptonFLiR.cpp:1274:6:void LeptonFLiR::agc_setHEQClipLimitHigh(uint16_t)	16	static
+LeptonFLiR.cpp:1283:10:uint16_t LeptonFLiR::agc_getHEQClipLimitHigh()	24	static
+LeptonFLiR.cpp:1294:6:void LeptonFLiR::agc_setHEQClipLimitLow(uint16_t)	16	static
+LeptonFLiR.cpp:1303:10:uint16_t LeptonFLiR::agc_getHEQClipLimitLow()	24	static
+LeptonFLiR.cpp:1314:6:void LeptonFLiR::agc_setHEQBinExtension(uint16_t)	16	static
+LeptonFLiR.cpp:1323:10:uint16_t LeptonFLiR::agc_getHEQBinExtension()	24	static
+LeptonFLiR.cpp:1334:6:void LeptonFLiR::agc_setHEQMidpoint(uint16_t)	16	static
+LeptonFLiR.cpp:1343:10:uint16_t LeptonFLiR::agc_getHEQMidpoint()	24	static
+LeptonFLiR.cpp:1354:6:void LeptonFLiR::agc_setHEQEmptyCounts(uint16_t)	16	static
+LeptonFLiR.cpp:1363:10:uint16_t LeptonFLiR::agc_getHEQEmptyCounts()	24	static
+LeptonFLiR.cpp:1374:6:void LeptonFLiR::agc_setHEQNormalizationFactor(uint16_t)	16	static
+LeptonFLiR.cpp:1383:10:uint16_t LeptonFLiR::agc_getHEQNormalizationFactor()	24	static
+LeptonFLiR.cpp:1394:6:void LeptonFLiR::sys_runPingCamera()	16	static
+LeptonFLiR.cpp:1403:6:void LeptonFLiR::sys_setTelemetryLocation(LEP_SYS_TELEMETRY_LOCATION)	16	static
+LeptonFLiR.cpp:1412:28:LEP_SYS_TELEMETRY_LOCATION LeptonFLiR::sys_getTelemetryLocation()	24	static
+LeptonFLiR.cpp:1423:6:void LeptonFLiR::sys_runFrameAveraging()	16	static
+LeptonFLiR.cpp:1432:6:void LeptonFLiR::sys_setNumFramesToAverage(LEP_SYS_FRAME_AVERAGE)	16	static
+LeptonFLiR.cpp:1441:23:LEP_SYS_FRAME_AVERAGE LeptonFLiR::sys_getNumFramesToAverage()	24	static
+LeptonFLiR.cpp:1452:6:void LeptonFLiR::sys_getSceneStatistics(LEP_SYS_SCENE_STATISTICS*)	16	static
+LeptonFLiR.cpp:1463:6:void LeptonFLiR::sys_setSceneRegion(LEP_SYS_SCENE_ROI*)	16	static
+LeptonFLiR.cpp:1474:6:void LeptonFLiR::sys_getSceneRegion(LEP_SYS_SCENE_ROI*)	16	static
+LeptonFLiR.cpp:1485:10:uint16_t LeptonFLiR::sys_getThermalShutdownCount()	24	static
+LeptonFLiR.cpp:1496:6:void LeptonFLiR::sys_setShutterPosition(LEP_SYS_SHUTTER_POSITION)	16	static
+LeptonFLiR.cpp:1505:26:LEP_SYS_SHUTTER_POSITION LeptonFLiR::sys_getShutterPosition()	24	static
+LeptonFLiR.cpp:1516:6:void LeptonFLiR::sys_setFFCShutterMode(LEP_SYS_FFC_SHUTTER_MODE*)	16	static
+LeptonFLiR.cpp:1527:6:void LeptonFLiR::sys_getFFCShutterMode(LEP_SYS_FFC_SHUTTER_MODE*)	16	static
+LeptonFLiR.cpp:1538:20:LEP_SYS_FFC_STATUS LeptonFLiR::sys_getFFCNormalizationStatus()	24	static
+LeptonFLiR.cpp:1549:6:void LeptonFLiR::vid_setUserColorLUT(LEP_VID_LUT_BUFFER*)	16	static
+LeptonFLiR.cpp:1560:6:void LeptonFLiR::vid_getUserColorLUT(LEP_VID_LUT_BUFFER*)	16	static
+LeptonFLiR.cpp:1571:6:void LeptonFLiR::vid_setFocusRegion(LEP_VID_FOCUS_ROI*)	16	static
+LeptonFLiR.cpp:1582:6:void LeptonFLiR::vid_getFocusRegion(LEP_VID_FOCUS_ROI*)	16	static
+LeptonFLiR.cpp:1593:6:void LeptonFLiR::vid_setFocusThreshold(uint32_t)	16	static
+LeptonFLiR.cpp:1602:10:uint32_t LeptonFLiR::vid_getFocusThreshold()	24	static
+LeptonFLiR.cpp:1613:10:uint32_t LeptonFLiR::vid_getFocusMetric()	24	static
+LeptonFLiR.cpp:1624:6:void LeptonFLiR::vid_setSceneBasedNUCEnabled(bool)	16	static
+LeptonFLiR.cpp:1633:6:bool LeptonFLiR::vid_getSceneBasedNUCEnabled()	24	static
+LeptonFLiR.cpp:1644:6:void LeptonFLiR::vid_setGamma(uint32_t)	16	static
+LeptonFLiR.cpp:1653:10:uint32_t LeptonFLiR::vid_getGamma()	24	static
+LeptonFLiR.cpp:1665:6:void LeptonFLiR::oem_setVideoMode(LEP_OEM_VIDEO_OUTPUT_FORMAT)	16	static
+LeptonFLiR.cpp:1678:29:LEP_OEM_VIDEO_OUTPUT_FORMAT LeptonFLiR::oem_getVideoMode()	24	static
+LeptonFLiR.cpp:1698:6:void LeptonFLiR::oem_setGPIO_mode(LEP_OEM_GPIO_MODE)	16	static
+LeptonFLiR.cpp:1711:19:LEP_OEM_GPIO_MODE LeptonFLiR::oem_getGPIO_mode()	24	static
+LeptonFLiR.cpp:1750:6:void LeptonFLiR::oem_setVSYNCPhaseDelay(LEP_OEM_VSYNC_DELAY)	16	static
+LeptonFLiR.cpp:1763:21:LEP_OEM_VSYNC_DELAY LeptonFLiR::oem_getVSYNCPhaseDelay()	24	static
+LeptonFLiR.cpp:1771:6:void LeptonFLiR::oem_ReBootCamera()	16	static
+LeptonFLiR.cpp:1785:6:void LeptonFLiR::oem_setColumnNoiseEstimateControl(LEP_OEM_SATE)	16	static
+LeptonFLiR.cpp:1799:6:void LeptonFLiR::oem_setPixelNoiseEstimateControl(LEP_OEM_SATE)	16	static
+LeptonFLiR.cpp:1813:6:void LeptonFLiR::rad_setRadiometryControlEnable(LEP_RAD_ENABLE_E_TAG)	16	static
+LeptonFLiR.cpp:1826:22:LEP_RAD_ENABLE_E_TAG LeptonFLiR::rad_getRadiometryControlEnable()	24	static
+LeptonFLiR.cpp:1838:6:void LeptonFLiR::rad_setTLinearEnableState(LEP_RAD_ENABLE_E_TAG)	16	static
+LeptonFLiR.cpp:1851:22:LEP_RAD_ENABLE_E_TAG LeptonFLiR::rad_getTLinearEnableState()	24	static
+LeptonFLiR.cpp:1870:20:void byteToHexString(byte, char*)	24	static
+LeptonFLiR.cpp:1879:6:void wordsToHexString(uint16_t*, int, char*, int)	32	static
+LeptonFLiR.cpp:1903:7:float kelvin100ToCelsius(uint16_t)	24	static
+LeptonFLiR.cpp:1908:7:float kelvin100ToFahrenheit(uint16_t)	24	static
+LeptonFLiR.cpp:1913:7:float kelvin100ToKelvin(uint16_t)	16	static
+LeptonFLiR.cpp:1917:10:uint16_t celsiusToKelvin100(float)	24	static
+LeptonFLiR.cpp:1922:10:uint16_t fahrenheitToKelvin100(float)	24	static
+LeptonFLiR.cpp:1927:10:uint16_t kelvinToKelvin100(float)	16	static
+LeptonFLiR.cpp:1931:7:float LeptonFLiR::kelvin100ToTemperature(uint16_t)	16	static
+LeptonFLiR.cpp:1944:10:uint16_t LeptonFLiR::temperatureToKelvin100(float)	16	static
+LeptonFLiR.cpp:1957:13:const char* LeptonFLiR::getTemperatureSymbol()	16	static
+LeptonFLiR.cpp:1983:6:byte LeptonFLiR::getLastI2CError()	16	static
+LeptonFLiR.cpp:1987:12:LEP_RESULT LeptonFLiR::getLastLepResult()	16	static
+LeptonFLiR.cpp:2099:6:bool LeptonFLiR::waitCommandBegin(int)	24	static
+LeptonFLiR.cpp:2135:6:bool LeptonFLiR::waitCommandFinish(int)	24	static
+LeptonFLiR.cpp:2169:10:uint16_t LeptonFLiR::cmdCode(uint16_t, uint16_t)	16	static
+LeptonFLiR.cpp:2173:10:uint16_t LeptonFLiR::cmdCodeOEM(uint16_t, uint16_t)	16	static
+LeptonFLiR.cpp:2177:6:void LeptonFLiR::sendCommand(uint16_t)	16	static
+LeptonFLiR.cpp:2196:6:void LeptonFLiR::sendCommand(uint16_t, uint16_t)	16	static
+LeptonFLiR.cpp:2215:6:void LeptonFLiR::sendCommand(uint16_t, uint32_t)	24	static
+LeptonFLiR.cpp:2234:6:void LeptonFLiR::sendCommand(uint16_t, uint16_t*, int)	24	static
+LeptonFLiR.cpp:2253:6:void LeptonFLiR::receiveCommand(uint16_t, uint16_t*)	24	static
+LeptonFLiR.cpp:2275:6:void LeptonFLiR::receiveCommand(uint16_t, uint32_t*)	24	static
+LeptonFLiR.cpp:2297:6:void LeptonFLiR::receiveCommand(uint16_t, uint16_t*, int)	24	static
+stl_algobase.h:195:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = int]	16	static
+LeptonFLiR.cpp:2319:5:int LeptonFLiR::writeCmdRegister(uint16_t, uint16_t*, int)	72	static
+LeptonFLiR.cpp:2390:5:int LeptonFLiR::readDataRegister(uint16_t*, int)	104	dynamic
+LeptonFLiR.cpp:2493:5:int LeptonFLiR::writeRegister(uint16_t, uint16_t)	40	static
+LeptonFLiR.cpp:2515:5:int LeptonFLiR::readRegister(uint16_t, uint16_t*)	56	static
+LeptonFLiR.cpp:2540:1:void __static_initialization_and_destruction_0(int, int)	16	static
+LeptonFLiR.cpp:2540:1:cpp)	8	static

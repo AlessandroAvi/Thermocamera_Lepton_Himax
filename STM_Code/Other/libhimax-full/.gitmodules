@@ -1,0 +1,3 @@
+[submodule "ext/maker"]
+	path = ext/maker
+	url = git@github.com:CMUAbstract/maker.git

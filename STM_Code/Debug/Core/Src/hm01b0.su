@@ -1,0 +1,16 @@
+hm01b0.cpp:28:6:void STM_print(char*)	72	static
+hm01b0.cpp:36:6:void STM_print8(char*, uint8_t)	72	static
+hm01b0.cpp:44:6:void STM_print16(char*, uint16_t)	72	static
+hm01b0.cpp:52:6:void STM_print32(char*, uint32_t)	72	static
+hm01b0.cpp:62:6:void hm01b0_reg_write(uint16_t, uint8_t)	40	static
+hm01b0.cpp:79:9:uint8_t hm01b0_reg_read(uint16_t)	40	static
+hm01b0.cpp:98:6:void hm01b0_reg_default_init()	16	static
+hm01b0.cpp:181:6:void hm01b0_rst()	8	static
+hm01b0.cpp:191:9:uint8_t hm01b0_set_mode(uint8_t)	16	static
+hm01b0.cpp:237:9:uint8_t hm01b0_set_output(uint8_t)	16	static
+hm01b0.cpp:269:9:uint8_t hm01b0_set_interface(uint8_t)	16	static
+hm01b0.cpp:308:9:uint8_t hm01b0_set_resolution(HM01B0*)	16	static
+hm01b0.cpp:380:9:uint8_t hm01b0_test_pattern(uint8_t)	16	static
+hm01b0.cpp:418:10:uint32_t STM_hm01b0_capture(HM01B0*)	32	static
+hm01b0.cpp:463:9:uint8_t get_frame_row_col(HM01B0*, int, int)	32	static
+hm01b0.cpp:480:6:void hm01b0_setup(HM01B0*)	16	static
