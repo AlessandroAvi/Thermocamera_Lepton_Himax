@@ -2,6 +2,8 @@
 
 This repository contains the code developed for the project course Embedded Systems - University of Trento
 
+The project is also explained in [this paper](https://openaccess.thecvf.com/content/ICCV2021W/DSC/html/Avi_Infrared_Dataset_Generation_for_People_Detection_Through_Superimposition_of_Different_ICCVW_2021_paper.html). 
+
 # Project's goal 
 Our project's goal was to :
 
